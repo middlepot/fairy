@@ -132,11 +132,11 @@ html {
 }
 
 @supports not (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #everything { position: relative; zoom: 110%; left:-170px; top:10px; }
 }}
 @supports (-webkit-touch-callout: none) {
-@media screen and (max-width: 1000px) and (orientation: portrait){
+@media screen and (min-width: 1px) and (orientation: portrait){
 #everything { position: relative; zoom: 110%; left:-170px; top:10px; }
 #box{line-height:18px !important;}
 html{-webkit-text-size-adjust: 105%; text-size-adjust: 105%;}
@@ -148,7 +148,7 @@ html{-webkit-text-size-adjust: 105%; text-size-adjust: 105%;}
 	top:5px; }
 }
 @media screen and (min-width: 2000px) and (orientation: landscape){
-#everything { position: absolute; zoom: 100%;	left:-40px;}
+#everything { position: absolute; zoom: 170%;	left:-40px;}
 }
 @media screen and (min-width: 3000px) and (orientation: landscape){
 #everything { position: absolute; zoom: 240%;
